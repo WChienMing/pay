@@ -6,6 +6,10 @@
     --dark: #0E2E50;
 }
 
+.mt-lg-10 {
+    margin-top: 10rem !important
+}
+
 .back-to-top {
     position: fixed;
     display: none;
@@ -441,4 +445,11 @@
     margin-right: 0;
     padding-right: 0;
     border-right: none;
+}
+
+
+@media (max-width: 992px) {
+    .mt-lg-10 {
+        margin-top: 0rem !important
+    }
 }
