@@ -168,6 +168,10 @@
     }
 }
 
+.navbar{
+    border-radius: 50px;
+}
+
 .header-carousel .owl-nav {
     position: absolute;
     top: 50%;
