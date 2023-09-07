@@ -88,7 +88,7 @@
 .nav-bar {
     position: relative;
     margin-top: 45px;
-    padding: 0 6rem;
+    padding: 0 7rem;
     transition: .5s;
     z-index: 9999;
 }
