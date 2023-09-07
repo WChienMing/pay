@@ -228,6 +228,14 @@
 }
 
 
+/*** Card ***/
+.card{
+    max-width: 50%;
+    padding: 10px;
+    margin: auto;
+}
+
+
 /*** About ***/
 .about-img img {
     position: relative;
