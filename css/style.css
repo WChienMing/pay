@@ -687,11 +687,11 @@
 
 
 .border_bottom{
-    border-bottom: 2px solid;
+    border-bottom: 2px solid #fff;
 }
 
 .border_top{
-    border-top: 2px solid;
+    border-top: 2px solid #fff;
 }
 .footer_logo{
     max-width: 20%;
