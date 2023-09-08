@@ -540,67 +540,51 @@
     border-radius: 50px;
 }
 
-.title-with-dot {
-    position: relative;
-    padding-left: 40px;
+/* circle & dot */
+.circle-container {
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
 }
 
-.title-with-dot::before {
-    content: "\2022";
-    font-size: 47px;
-    color: #61d1f9;
-    position: absolute;
-    left: 6px;
-    top: 60%;
-    transform: translateY(-50%);
-    z-index: 1; 
+.circle-center{
+    justify-content: center;
 }
 
-
-
-.title-with-dot span {
-    position: absolute;
-    border: 1px solid #61d1f9; 
+.circle {
     width: 24px;
     height: 24px;
+    border: 1px solid #61d1f9;
     border-radius: 50%;
-    left: 1.5%;
-    top: 47%;
-    transform: translateY(-50%);
-    z-index: 0;
-}
-
-.title-with-dot-white {
     position: relative;
-    padding-left: 40px;
-    color: white;
 }
 
-.title-with-dot-white::before {
-    content: "\2022";
-    font-size: 47px;
+.dot {
+    width: 11px;
+    height: 11px;
+    background-color: #61d1f9;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.white .circle {
+    border: 1px solid #fff;
+}
+
+.white .dot {
+    background-color: #fff;
+}
+
+.white .text {
     color: #fff;
-    position: absolute;
-    left: 6px;
-    top: 60%;
-    transform: translateY(-50%);
-    z-index: 1; 
 }
 
-
-
-.title-with-dot-white span {
-    position: absolute;
-    border: 1px solid #fff; 
-    width: 24px;
-    height: 24px;
-    border-radius: 50%;
-    left: 1.5%;
-    top: 47%;
-    transform: translateY(-50%);
-    z-index: 0;
+.text {
+    margin-left: 10px;
 }
-
 
 /*** Payment Solution Card ***/
 
