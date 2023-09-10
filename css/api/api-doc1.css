@@ -1,0 +1,107 @@
+.bg-grey {
+    background: #F5F5F5;
+}
+
+.bg-white {
+    background: #fff !important;
+}
+
+.text-color-blue {
+    color: #61d1f9;
+}
+
+.text-blue {
+    color: #61d1f9;
+}
+
+.btn-create-account {
+    border: none;
+    background: none;
+    color: #61d1f9;
+    font-weight: 600;
+}
+
+.btn-create-account:hover {
+    color: #000;
+}
+
+.btn-sign-in {
+    border: 2px solid #000;
+    border-radius: 10px;
+    background: #fff;
+    color: #000;
+}
+
+.dm-color {
+    background: none !important;
+    color: rgba(0, 0, 0, .55);
+    border: none;
+}
+
+.dm-color:hover {
+    background: none !important;
+    color: #61d1f9;
+}
+
+.btn-support {
+    border: none;
+    background: none;
+    color: color: rgba(0, 0, 0, .55);
+}
+
+.btn-support:hover {
+    background: none !important;
+    color: #61d1f9;
+}
+
+.btn-sign-in:hover {
+    border: 2px solid #61d1f9;
+}
+
+.pd-l-r {
+    padding: 0px 11px 0px 17px;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #61d1f9 !important;
+}
+
+
+/*** Card ***/
+.card1 {
+    max-width: 90%;
+    padding: 0;
+    margin-right: auto;
+    background-color: #fff;
+}
+
+.card2 {
+    max-width: 100%;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+
+}
+
+.api-header {
+    max-width: 100%;
+}
+
+.service-icon {
+    max-width: 25%;
+    transform: translateY(-10%);
+}
+
+.api-container2 {
+    align-items: center;
+    justify-content: center;
+}
+
+.api-img2 {
+    max-width: 100%;
+    float: left;
+}
+
+.api-padding-b {
+    padding-bottom: 5em;
+}
