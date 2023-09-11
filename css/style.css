@@ -247,6 +247,19 @@
 
 
 /*** Card ***/
+
+.card-home{
+    padding: 0;
+    margin: auto;
+}
+
+.card-home2{
+    max-width: 70%;
+    margin-top: 20px !important;
+    margin-bottom: 10px !important;
+    margin: auto;
+     padding: 25px 0px 50px 0px;
+}
 .card {
     max-width: 70%;
     padding: 0;
