@@ -729,6 +729,11 @@
     transform: translateY(-6%);
 }
 
+.nav_logo {
+    max-width: 40%;
+    transform: translateY(-6%);
+}
+
 .text-white {
     color: #fff;
 }
