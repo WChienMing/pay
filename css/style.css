@@ -54,7 +54,7 @@
 
 .btn-w {
     background-color: #fff;
-    color: #61d1f9;
+    color: #275791;
 }
 
 .btn-square {
@@ -835,4 +835,9 @@
         padding-left: 30px;
         padding-right: 0;
     }
+}
+
+.nav-item img {
+    width: 150px; 
+    height: auto;
 }
