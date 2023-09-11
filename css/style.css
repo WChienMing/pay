@@ -18,6 +18,10 @@
     margin-top: 9rem !important
 }
 
+.btn-text-20{
+    font-size: 20px;
+}
+
 .back-to-top {
     position: fixed;
     display: none;
@@ -121,7 +125,7 @@
     margin-right: 30px;
     padding: 25px 0;
     color: #FFFFFF;
-    font-size: 15px;
+    font-size: 20px;
     text-transform: uppercase;
     outline: none;
 }
