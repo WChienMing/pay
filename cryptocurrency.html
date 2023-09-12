@@ -24,6 +24,18 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
     <script src="js/import-elements.js"></script>
+    <style>
+    .img-box img.box_img {
+      width: 100%;
+      height: 100vh;
+      object-fit: cover;
+    }
+
+    .padding-left-right {
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+    </style>
 </head>
 
 <body>
@@ -55,9 +67,9 @@
                     <a href="" class="btn btn-w py-3 px-5 me-3 animated fadeIn button_radius">Learn More</a>
                 </div>
                 <div class="col-md-4 animated fadeIn bg-primary">
-                    <div class="card-contact-header1 text-center margin-top-payment-so">
-                        <div class="card-contact-header2 text-center" style=" margin-bottom: -70px !important;">
-                            <img class="card-img-top about-page-img" src="img/solution/main.png" alt="Card image cap">
+                    <div class="card-home text-center mt-lg-9">
+                        <div class="card-home2 text-center">
+                            <img class="card-img-top about-page-img" src="img/solution/credit_card.png">
                         </div>
                     </div>
                 </div>
@@ -65,35 +77,50 @@
         </div>
         <!-- Header End -->
         <!-- About Start -->
-        <div class="bg-white py-5" style="padding-top: 1px !important;">
+        <section class="contact_section">
             <div class="container-fluid">
-                <div class="row g-5 align-items-center">
-                    <div class="col-lg-6 animated fadeIn bg-about-payment"></div>
-                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                        <div class="circle-container">
-                            <div class="circle">
-                                <div class="dot"></div>
-                            </div>
-                            <div class="text"><b>E Wallet</b></div>
+              <div class="row">
+                <div class="col-md-5 px-0">
+                  <div class="img-box">
+                    <img src="img/credit-card/use_card.png" class="box_img" alt="about img">
+                  </div>
+                </div>
+                <div class="col-md-7 d-flex flex-column justify-content-center p-5" style="max-width: 800px; margin: 0 auto;">
+                    <div class="circle-container">
+                        <div class="circle">
+                            <div class="dot"></div>
                         </div>
-                        <h1 class="mb-4">We Are The Best Online Payment Gateway Agency</h1>
-                        <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua tenimad minim veniam quis nostrud exercitation. </p>
-                        <div class="row">
-                            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                                <h3 class="mb-4">Hosted payment page</h3>
-                                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed </p>
-                            </div>
-                            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                                <h3 class="mb-4">Fully customizable flows</h3>
-                                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed </p>
-                            </div>
+                        <div class="text"><b>E-Wallet</b></div>
+                    </div>
+                    <h1 class="mb-4">We Are The Best Online Payment Gateway Agency</h1>
+                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua tenimad minim veniam quis nostrud exercitation.</p>
+                    <div class="d-flex align-items-start mb-4">
+                        <img src="img/about-us/vision_icon_white.png" class="me-3" style="width: 80px;">
+                        <div>
+                            <h3 class="mb-4">Hosted payment page</h3>
+                            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et</p>
                         </div>
-                        <a href="" class="btn btn-primary py-3 px-5 me-3 animated fadeIn button_radius">Get Started</a>
-                        <a href="" class="btn btn-primary py-3 px-5 me-3 animated fadeIn button_radius">Get Started</a>
+                    </div>
+                    <div class="d-flex align-items-start mb-4">
+                        <img src="img/about-us/mission_icon_blue.png" class="me-3" style="width: 80px;">
+                        <div>
+                            <h3 class="mb-4">Fully customizable flows</h3>
+                            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et</p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-start mb-4">
+                        <div>
+                            <p class="mb-4">Payment Method</p>
+                            <img src="img/credit-card/all_card.png" style="width: 80%;">
+                            <!-- <img src="img/credit-card/master.png" class="me-3" style="width: 50px;">
+                            <img src="img/credit-card/amax.png" class="me-3" style="width: 50px;">
+                            <img src="img/credit-card/up.png" class="me-3" style="width: 50px;"> -->
+                        </div>
                     </div>
                 </div>
+              </div>
             </div>
-        </div>
+          </section>
         <!-- About End -->
          <!-- Payment Solution Start -->
          <div class="bg-primary py-5">
