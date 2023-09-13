@@ -868,3 +868,11 @@
 .margin-top-payment-so {
     margin-top: 12em;
 }
+
+.max-w{
+    max-width: 100%;
+}
+
+.max-w-60{
+    max-width: 60%;
+}
