@@ -865,7 +865,8 @@
 
 .contact-container{
     margin: auto;
-    width: 100%;
+    width: 1571px;
+    height: 786px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5em;
@@ -891,10 +892,23 @@
     height: 100%;
 }
 
+.contact-label{
+    font-size: 20px;
+}
+
+.input-contact{
+   border-radius: 25px; 
+}
+
+.btn-contact{
+    border-radius: 25px;
+}
+
 @media (max-width: 964px){
     .contact-container{
         margin: 0 auto;
         width: 90%;
+        height: 100%;
     }
 }
 
