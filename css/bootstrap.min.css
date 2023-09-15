@@ -8409,7 +8409,7 @@ fieldset:disabled .btn {
 }
 
 .bg-warning {
-    background-color: #ffc107 !important
+    background-color: #ffc107 !important;
 }
 
 .bg-danger {
@@ -8430,7 +8430,8 @@ fieldset:disabled .btn {
 }
 
 .bg-white {
-    background-color: #fff !important
+    background-color: #fff !important;
+    overflow-x: hidden !important;
 }
 
 .bg-transparent {
