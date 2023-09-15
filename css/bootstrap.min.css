@@ -8434,6 +8434,10 @@ fieldset:disabled .btn {
     overflow-x: hidden !important;
 }
 
+.bg-white-nav {
+    background-color: #fff !important;
+}
+
 .bg-transparent {
     background-color: rgba(0, 0, 0, 0) !important
 }
