@@ -6,6 +6,56 @@
     --dark: #0E2E50;
 }
 
+@font-face {
+    font-family: sf-pro-display;
+    src: url(..//fonts/sf-pro-display/otf/SF-Pro-Display-Regular.otf),
+        url(..//fonts/sf-pro-display/ttf/SF-Pro-Display-Regular.ttf);
+}
+
+@font-face {
+    font-family: sf-pro-display-semi-bold;
+    src: url(..//fonts/sf-pro-display/otf/SF-Pro-Text-Semibold.otf),
+        url(..//fonts/sf-pro-display/ttf/sf-pro-text-semibold.ttf);
+}
+
+@font-face {
+    font-family: 'segoe-ui-regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('segoe-ui-regular'), url('..//fonts/segoe-ui/segoe-ui-regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'segoe-ui-bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('segoe-ui-bold'), url('..//fonts/segoe-ui/segoe-ui-bold.woff') format('woff');
+}
+
+.font-header-p {
+    font-family: 'sf-pro-display', sans-serif;
+    color: #AEAEAE;
+}
+
+.font-header-title {
+    font-family: 'sf-pro-display-semi-bold', sans-serif;
+    color: #4B4B4B;
+    font-weight: 400;
+}
+
+.btn-font{
+    font-family: 'segoe-ui-regular-bold', sans-serif;
+    font-weight: 500;
+}
+
+.margin-top100 {
+    margin-top: 100px !important;
+}
+
+.padding-top100 {
+    padding-top: 50px !important;
+}
+
 .bg-grey {
     background-color: #F5F5F5;
 }
@@ -18,7 +68,7 @@
     margin-top: 9rem !important
 }
 
-.btn-text-20{
+.btn-text-20 {
     font-size: 20px;
 }
 
@@ -173,6 +223,15 @@
     .mt-lg-9 {
         margin-top: 14rem !important;
     }
+
+    .margin-top100 {
+        margin-top: 50px !important;
+    }
+
+    .padding-top100 {
+        padding-top: 100px !important;
+    }
+
 }
 
 @media (max-width: 1332px) {
@@ -180,9 +239,17 @@
         margin: 0;
         padding: 0;
     }
-    
+
     .mt-lg-9 {
         margin-top: 9rem !important;
+    }
+
+    .margin-top100 {
+        margin-top: 50px !important;
+    }
+
+    .padding-top100 {
+        padding-top: 100px !important;
     }
 }
 
@@ -255,6 +322,7 @@
     .navbar {
         border-radius: 50px;
     }
+
     .mt-lg-9 {
         margin-top: 12rem !important;
     }
@@ -314,20 +382,20 @@
 
 /*** Card ***/
 
-.card-home{
+.card-home {
     padding: 0;
     margin: auto;
 }
 
-.card-home2{
+.card-home2 {
     max-width: 70%;
     margin-top: 20px !important;
     margin-bottom: 10px !important;
     margin: auto;
-     padding: 25px 0px 50px 0px;
+    padding: 25px 0px 50px 0px;
 }
 
-.card-home3{
+.card-home3 {
     max-width: 100%;
     margin-top: 20px !important;
     margin-bottom: 20px !important;
@@ -721,7 +789,10 @@
 }
 
 .text {
+    font-family: 'sf-pro-display-semi-bold', sans-serif;
     margin-left: 10px;
+    color: #767676;
+    /*    font-size: 30px;*/
 }
 
 /*** Payment Solution Card ***/
@@ -863,7 +934,7 @@
     text-align: center;
 }
 
-.contact-container{
+.contact-container {
     margin: auto;
     width: 1571px;
     height: 786px;
@@ -877,7 +948,7 @@
     margin-bottom: 3rem !important;
 }
 
-.form-container{
+.form-container {
     padding: 20px;
 
 }
@@ -887,39 +958,39 @@
     row-gap: 1rem;
 }
 
-.map iframe{
+.map iframe {
     width: 100%;
     height: 100%;
 }
 
-.contact-label{
+.contact-label {
     font-size: 20px;
 }
 
-.input-contact{
-   border-radius: 25px; 
-}
-
-.btn-contact{
+.input-contact {
     border-radius: 25px;
 }
 
-@media (max-width: 964px){
-    .contact-container{
+.btn-contact {
+    border-radius: 25px;
+}
+
+@media (max-width: 964px) {
+    .contact-container {
         margin: 0 auto;
         width: 90%;
         height: 100%;
     }
 }
 
-@media (max-width: 700px){
-    .contact-container{
+@media (max-width: 700px) {
+    .contact-container {
         grid-template-columns: 1fr;
         gap: 1rem;
         margin-top: 2rem !important;
     }
 
-    .map iframe{
+    .map iframe {
         height: 400px;
     }
 }
@@ -950,7 +1021,7 @@
 }
 
 .nav-item img {
-    width: 150px; 
+    width: 150px;
     height: auto;
 }
 
@@ -958,11 +1029,11 @@
     margin-top: 12em;
 }
 
-.max-w{
+.max-w {
     max-width: 100%;
 }
 
-.max-w-60{
+.max-w-60 {
     max-width: 60%;
 }
 
