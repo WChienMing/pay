@@ -22,7 +22,7 @@
 @font-face {
     font-family: 'segoe-ui-regular';
     src: url('..//fonts/segoe-ui/segoe-ui-regular.woff') format('woff'),
-        url('..//fonts/segoe-ui/segoe-ui-regular.ttf') format('truetype'),;
+        url('..//fonts/segoe-ui/segoe-ui-regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -30,9 +30,46 @@
 @font-face {
     font-family: 'segoe-ui-bold';
     src: url('..//fonts/segoe-ui/segoe-ui-bold.woff') format('woff'),
-        url('..//fonts/segoe-ui/segoe-ui-bold.ttf') format('truetype'),;
+        url('..//fonts/segoe-ui/segoe-ui-bold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+}
+
+.font-title{
+    font-family: 'sf-pro-display-semi-bold', sans-serif;
+    font-weight: 500;
+}
+
+.font-title-black{
+    color: #000;
+    font-family: 'sf-pro-display-semi-bold', sans-serif;
+    font-weight: 500;
+}
+
+.font-p{
+    font-family: 'sf-pro-display', sans-serif;
+}
+
+.font-title-70 {
+    font-family: 'sf-pro-display-semi-bold', sans-serif;
+    color: #707070;
+    font-weight: 500;
+}
+
+.font-p-76 {
+    font-family: 'sf-pro-display', sans-serif;
+    color: #767676;
+}
+
+.a-btn{
+    font-family: 'sf-pro-display', sans-serif;
+    color: #285892;
+}
+
+.font-header-title {
+    font-family: 'sf-pro-display-semi-bold', sans-serif;
+    color: #4B4B4B;
+    font-weight: 500;
 }
 
 .font-header-p {
@@ -40,15 +77,14 @@
     color: #AEAEAE;
 }
 
-.font-header-title {
-    font-family: 'sf-pro-display-semi-bold', sans-serif;
-    color: #4B4B4B;
-    font-weight: 400;
+.btn-font{
+    font-family: 'segoe-ui-bold', sans-serif;
+    font-weight: 500;
 }
 
-.btn-font{
-    font-family: 'segoe-ui-regular-bold', sans-serif;
-    font-weight: 500;
+.btn-font-regular{
+    font-family: 'segoe-ui-regular', sans-serif;
+    font-weight: 400;
 }
 
 
