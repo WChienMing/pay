@@ -3242,7 +3242,7 @@ fieldset:disabled .btn {
     color: #fff;
     background-color: #5c636a;
     border-color: #565e64;
-    box-shadow: 0 0 0 .25rem rgba(130, 138, 145, .5)
+    box-shadow: 0 0 0 .1rem rgba(112, 112, 112, .5)
 }
 
 .btn-check:active+.btn-secondary,

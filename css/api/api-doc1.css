@@ -2,6 +2,29 @@
     background: #F5F5F5;
 }
 
+.text-grey {
+    color: #707070 !important;
+}
+
+.font-33 {
+    font-size: 33px;
+    font-weight: 600;
+}
+
+.font-32 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.font-26 {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.font-18 {
+    font-size: 18px;
+}
+
 .bg-white {
     background: #fff !important;
 }
@@ -22,14 +45,16 @@
 }
 
 .btn-create-account:hover {
-    color: #000;
+    color: #707070;
 }
 
 .btn-sign-in {
-    border: 2px solid #000;
+    border: 1px solid #707070;
     border-radius: 10px;
     background: #fff;
-    color: #000;
+    color: #6C6C6C;
+    width: 99px;
+    height: 40px;
 }
 
 .dm-color {
@@ -67,7 +92,7 @@
     color: #275791 !important;
 }
 
-.search-api{
+.search-api {
     width: 900px;
 }
 
@@ -83,6 +108,7 @@
     max-width: 100%;
     margin-top: 10px !important;
     margin-bottom: 10px !important;
+    margin-left: -100px;
 
 }
 
@@ -91,8 +117,8 @@
 }
 
 .service-icon {
-    max-width: 25%;
-    transform: translateY(-10%);
+    max-width: 100%;
+    transform: translateY(-30%);
 }
 
 .api-container2 {
@@ -100,11 +126,59 @@
     justify-content: center;
 }
 
+.api-ps-col{
+    width: 100px;
+}
+
 .api-img2 {
     max-width: 100%;
     float: left;
+    padding-top: 20px;
+}
+
+.api-img2-left {
+    padding-left: 15px;
 }
 
 .api-padding-b {
     padding-bottom: 5em;
+}
+
+@media (max-width: 700px) {
+    .api-ps-col{
+        width: 100%;
+    }
+    .text-center-mobile {
+        text-align: center;
+    }
+
+    .api-img2 {
+        padding-top: 0px;
+        padding-bottom: 20px;
+        float: none;
+    }
+
+    .api-img2-left {
+        padding-left: 0px;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    .card1 {
+        max-width: 100%;
+    }
+
+    .card2 {
+        margin-left: 0px;
+    }
+
+    .search-api {
+        width: 100%;
+    }
+
+    .btn-sign-in {
+        width: 100%;
+    }
+
 }
