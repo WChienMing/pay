@@ -278,10 +278,22 @@
     }
 
     .mt-lg-9 {
-        margin-top: 9rem !important;
+        /* margin-top: 9rem !important; */
+        margin-top: 13rem !important;
+    }
+
+    .mt-lg-full-img {
+        margin-top: 4rem !important;
     }
 }
 
+@media (max-width: 767px) {
+
+    .mt-lg-9 {
+        /* margin-top: 9rem !important; */
+        margin-top: 4rem !important;
+    }
+}
 
 .navbar-light .navbar-brand {
     height: 75px;
@@ -353,6 +365,9 @@
     }
 
     .mt-lg-9 {
+        margin-top: 12rem !important;
+    }
+    .mt-lg-full-img {
         margin-top: 12rem !important;
     }
 }
