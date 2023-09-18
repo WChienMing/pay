@@ -1110,6 +1110,10 @@
     background-repeat: no-repeat;
 }
 
+.card-contact-header1 {
+    margin-left: 0;
+}
+
 @media (min-width: 992px) {
     .responsive-image {
         margin-left: -100px;
