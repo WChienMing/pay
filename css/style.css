@@ -61,6 +61,16 @@
     color: #767676;
 }
 
+.fonts-title-5f{
+    font-family: 'sf-pro-display', sans-serif;
+    color: #5F5F5F;
+}
+
+.fonts-p-bb{
+    font-family: 'sf-pro-display', sans-serif;
+    color: #BBBBBB;
+}
+
 .a-btn{
     font-family: 'sf-pro-display', sans-serif;
     color: #285892;
