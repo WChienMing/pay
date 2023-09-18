@@ -377,6 +377,11 @@
     .mt-lg-9 {
         margin-top: 12rem !important;
     }
+
+    .mt-lg-9-cc {
+        margin-top: 12rem !important;
+    }
+
     .mt-lg-full-img {
         margin-top: 12rem !important;
     }
@@ -1103,4 +1108,48 @@
     justify-content: flex-end;
     align-items: center;
     background-repeat: no-repeat;
+}
+
+@media (min-width: 992px) {
+    .responsive-image {
+        margin-left: -100px;
+        margin-top: 8rem;
+        padding-bottom: 40px;
+    }
+}
+
+@media (max-width: 1374px) {
+    .responsive-image {
+        margin-left: -100px;
+        margin-top: 0px;
+        padding-bottom: 40px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1250px) {
+    .responsive-image {
+        margin-left: -50px;
+        margin-top: 4rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .responsive-image-payment {
+        margin-left: -100px;
+        margin-top: 12rem;
+    }
+}
+
+@media (max-width: 1374px) {
+    .responsive-image-payment {
+        margin-left: -100px;
+        margin-top: 6rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1250px) {
+    .responsive-image-payment {
+        margin-left: -50px;
+        margin-top: 8rem;
+    }
 }
