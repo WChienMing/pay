@@ -23,7 +23,40 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/progressbar.css" rel="stylesheet">
     <script src="js/import-elements.js"></script>
+    <style>
+        .expertise-item {
+            text-align: left;
+        }
+
+        .text-primary {
+            margin-bottom: 10px;
+        }
+
+        .progress-bars progress {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .progress-bar-container {
+            border-radius: 50px;
+            width: 100%;
+            background-color: #ccc;
+        }
+
+        .progress-bar {
+            border-radius: 50px;
+            height: 10px;
+            background-image: linear-gradient(to right, #2D74C9, #285892) !important;
+        }
+        
+        .progress-info {
+            position: relative;
+        }
+
+
+    </style>
 </head>
 
 <body>
@@ -159,12 +192,44 @@
               <div class="row align-items-center bg-grey">
                 <div class="col-md-5 px-0">
                   <div class="img-box about" style="width: 100%;height: 100vh;object-fit: cover;">
-                    <!-- <div class="content-about-us"> -->
-                        <img src="img/about-us/bar.png" style="width: 90%; margin-bottom: 25%;">
-                        <!-- <h5>Our Expertise </h5> -->
-                        <!-- <p class="text-primary">Lorem ipsum dolor sit ame</p> -->
-                    <!-- </div> -->
-                    <!-- <img src="img/credit-card/use_card.png" class="box_img" alt="about img"> -->
+                    <!-- <img src="img/about-us/bar.png" style="width: 90%; margin-bottom: 25%;"> -->
+                    <!-- <div class="content-about-us" style="margin-bottom: 25%;">
+                        <h5>Our Expertise</h5>
+                        <p class="text-primary">Lorem ipsum dolor sit ame</p>
+                    </div> -->
+                    <div class="content-about-us" style="margin-bottom: 15%; text-align: left;">
+                        <h5 class="mb-4">Our Expertise</h5>
+                    
+                        <div class="expertise-item mb-4">
+                            <div class="progress-info d-flex justify-content-between">
+                                <div class="text-primary">Online Payments</div>
+                                <div class="progress-percent">91%</div>
+                            </div>
+                            <div class="progress-bar-container my-2">
+                                <div class="progress-bar" style="width:91%"></div>
+                            </div>
+                        </div>
+
+                        <div class="expertise-item mb-4">
+                            <div class="progress-info d-flex justify-content-between">
+                                <div class="text-primary">Integration Other</div>
+                                <div class="progress-percent">92%</div>
+                            </div>
+                            <div class="progress-bar-container my-2">
+                                <div class="progress-bar" style="width:92%"></div>
+                            </div>
+                        </div>
+
+                        <div class="expertise-item mb-4">
+                            <div class="progress-info d-flex justify-content-between">
+                                <div class="text-primary">Online Payments</div>
+                                <div class="progress-percent">88%</div>
+                            </div>
+                            <div class="progress-bar-container my-2">
+                                <div class="progress-bar" style="width:88%"></div>
+                            </div>
+                        </div>
+                    </div>
                   </div>
                 </div>
                 <div class="col-md-7 flex-column justify-content-center p-5" style="max-width: 800px; margin: 0 auto;">
@@ -180,15 +245,18 @@
                     <div class="row">
                         <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                             <!-- <img src="img/about-us/92.png" style="width: 40%;margin-bottom: 1rem;"> -->
-                            <img src="img/about-us/92.png" class="d-lg-none mx-auto d-block" style="width: 40%; margin-bottom: 1rem;">
-                            <img src="img/about-us/92.png" class="d-none d-lg-block" style="width: 40%; margin-bottom: 1rem;">
+                            <div class="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="--value:92"></div>
+
+                            <!-- <img src="img/about-us/92.png" class="d-lg-none mx-auto d-block" style="width: 40%; margin-bottom: 1rem;"> -->
+                            <!-- <img src="img/about-us/92.png" class="d-none d-lg-block" style="width: 40%; margin-bottom: 1rem;"> -->
                             <h3 class="mb-4 font-header-title">Trust & security</h3>
                             <p class="mb-4 font-header-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed </p>
                         </div>
                         <div class="col-lg-6 wow fadeIn align-items-center" data-wow-delay="0.5s">
                             <!-- <img src="img/about-us/90.png" style="width: 40%;margin-bottom: 1rem;"> -->
-                            <img src="img/about-us/90.png" class="d-lg-none mx-auto d-block" style="width: 40%; margin-bottom: 1rem;">
-                            <img src="img/about-us/90.png" class="d-none d-lg-block" style="width: 40%; margin-bottom: 1rem;">
+                            <div class="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="--value:90"></div>
+                            <!-- <img src="img/about-us/90.png" class="d-lg-none mx-auto d-block" style="width: 40%; margin-bottom: 1rem;"> -->
+                            <!-- <img src="img/about-us/90.png" class="d-none d-lg-block" style="width: 40%; margin-bottom: 1rem;"> -->
                             <h3 class="mb-4 font-header-title">Store Collection</h3>
                             <p class="mb-4 font-header-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed </p>
                         </div>
