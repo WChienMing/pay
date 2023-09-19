@@ -77,7 +77,7 @@
 }
 
 .font-header-title {
-    font-family: 'sf-pro-display-semi-bold', sans-serif;
+    font-family: 'sf-pro-display-semi-bold', sans-serif !important;
     color: #4B4B4B;
     font-weight: 500;
 }
