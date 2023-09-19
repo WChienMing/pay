@@ -1143,6 +1143,11 @@
         margin-left: -100px;
         margin-top: 12rem;
     }
+
+    .responsive-image-contact {
+        margin-left: -100px;
+        margin-top: 5rem;
+    }
 }
 
 @media (max-width: 1374px) {
@@ -1150,11 +1155,21 @@
         margin-left: -100px;
         margin-top: 6rem;
     }
+
+    .responsive-image-contact {
+        margin-left: -100px;
+        margin-top: 5rem;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1250px) {
     .responsive-image-payment {
         margin-left: -50px;
         margin-top: 8rem;
+    }
+
+    .responsive-image-contact {
+        margin-left: -50px;
+        margin-top: 1rem;
     }
 }

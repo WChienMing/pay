@@ -24,6 +24,17 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
     <script src="js/import-elements.js"></script>
+    <style type="text/css">
+        @media (max-width: 992px) {
+            .header-center {
+                text-align: center;
+            }
+
+            .circle-container {
+                justify-content: center;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -36,12 +47,12 @@
         </div>
         <!-- Spinner End -->
         <!-- Navbar Start -->
-         <div class="container-fluid nav-bar bg-transparent" id="navbar-container"></div>
+        <div class="container-fluid nav-bar bg-transparent" id="navbar-container"></div>
         <!-- Navbar End -->
         <!-- Header Start -->
         <div class="container-fluid header bg-white p-0">
-            <div class="row g-0 align-items-center flex-column-reverse flex-md-row bg-white">
-                <div class="col-md-8 p-5" style="max-width: 800px; margin: 0 auto;">
+            <div class="row g-0 align-items-center flex-column-reverse flex-md-row bg-grey">
+                <div class="col-12 col-md-8 p-5 header-center" style="max-width: 800px; margin: 0 auto;">
                     <div class="circle-container" style="margin-top: 0em;">
                         <!-- <div class="circle">
                             <div class="dot"></div>
@@ -53,11 +64,11 @@
                     <h1 class="display-5 animated fadeIn mb-4 font-header-title">Contact</h1>
                     <p class="animated fadeIn mb-4 pb-2 font-header-p">Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit sed do eiusmod tempor incididunt ut labore</p>
                 </div>
-                <div class="col-md-4 animated fadeIn bg-primary">
-                    <div class="card-contact-header1 text-center margin-top-about">
-                        <div class="card-contact-header2 text-center">
-                            <img class="card-img-top max-w" src="img/contact-us/header.png" alt="Card image cap">
-                        </div>
+                <div class="col-12 col-md-4 animated fadeIn bg-primary">
+                    <div class="text-center">
+                        <!-- <img class="card-img-top max-w" src="img/solution/main.png" alt="Card image cap"> -->
+                        <img src="img/contact-us/contact-img.png" alt="Card image cap" class="img-fluid d-none d-md-block responsive-image-contact">
+                        <img src="img/contact-us/contact-img.png" alt="Card image cap" class="img-fluid d-md-none">
                     </div>
                 </div>
             </div>
@@ -112,13 +123,12 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="contact-container" style="padding-left: 0px;">
                         <div class="map">
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14082.490584679968!2d103.05138239480804!3d3.9372765729031385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31c8c341543fc543%3A0x146176f03f3f5b22!2sCampstay%20Sungai%20Lembing!5e0!3m2!1sen!2smy!4v1694283873545!5m2!1sen!2smy" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                         <div class="form-container">
-                             <div class="circle-container" style="margin-top: 2em;">
+                            <div class="circle-container" style="margin-top: 2em;">
                                 <!-- <div class="circle">
                                     <div class="dot"></div>
                                 </div> -->
@@ -138,13 +148,12 @@
                                         <div class="py-2">
                                             <label for="subject" class="contact-label fonts-title-5f">Subject</label>
                                             <input type="text" class="form-control input-contact fonts-p" id="subject" placeholder="Subject">
-                                            
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="py-2">
                                             <label for="email" class="contact-label fonts-title-5f">Email</label>
-                                            <input type="email" class="form-control input-contact fonts-p" id="email" placeholder="Your Email"> 
+                                            <input type="email" class="form-control input-contact fonts-p" id="email" placeholder="Your Email">
                                         </div>
                                     </div>
                                     <div class="col-md-6">
