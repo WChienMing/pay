@@ -153,6 +153,7 @@
 .btn-w {
     background-color: #fff;
     color: #275791;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .btn-square {
