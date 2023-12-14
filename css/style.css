@@ -1209,3 +1209,10 @@
         overflow: auto;
     }
 }
+
+
+.accordion-body{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
