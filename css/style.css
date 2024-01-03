@@ -860,7 +860,8 @@
 .card-payment-solution1 {
     background: url("..//img/payment-solution/img-1.png");
     background-size: 100% 100%;
-    height: 450px;
+    /* height: 450px; */
+    height: 480px;
     padding: 10px;
     /*cursor: pointer;*/
     border-radius: 16px;
@@ -878,7 +879,8 @@
 .card-payment-solution2 {
     background: url("..//img/payment-solution/img-2.png");
     background-size: 100% 100%;
-    height: 450px;
+    /* height: 450px; */
+    height: 480px;
     padding: 10px;
     /*cursor: pointer;*/
     border-radius: 16px;
@@ -896,7 +898,8 @@
 .card-payment-solution3 {
     background: url("..//img/payment-solution/img-3.png");
     background-size: 100% 100%;
-    height: 450px;
+    /* height: 450px; */
+    height: 480px;
     padding: 10px;
     /*cursor: pointer;*/
     border-radius: 16px;
@@ -914,7 +917,8 @@
 .card-payment-solution4 {
     background: url("..//img/payment-solution/img-4.png");
     background-size: 100% 100%;
-    height: 450px;
+    /* height: 450px; */
+    height: 480px;
     padding: 10px;
     /*cursor: pointer;*/
     border-radius: 16px;
@@ -932,7 +936,8 @@
 .card-payment-solution5 {
     background: url("..//img/payment-solution/img-5.png");
     background-size: 100% 100%;
-    height: 450px;
+    /* height: 450px; */
+    height: 480px;
     padding: 10px;
     /*cursor: pointer;*/
     border-radius: 16px;
@@ -1155,6 +1160,7 @@
     font-size: 15px;
     text-align: center; 
     font-weight: bold;
+    margin-bottom: 0.5rem;
 
 }
 
@@ -1163,6 +1169,7 @@
     text-align: center; 
     margin-top: 10px; 
     font-weight: bold;
+    margin-bottom: 0.5rem;
 }
 
 @media (min-width: 992px) {
@@ -1239,7 +1246,8 @@
     .accordion-body{
         background: #fff; 
         border-radius: 16px; 
-        width: 350px; 
+        /* width: 350px;  */
+        width: 280px;
         height: 350px; 
         overflow: auto;
     }
